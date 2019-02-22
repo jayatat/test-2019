@@ -1,0 +1,14 @@
+Create database kominfo;
+
+CREATE TABLE Persons (
+    id int primary key,
+    namavarchar(32),
+    jumlah int 
+);
+
+INSERT INTO perangkat ('id', 'nama', 'jumlah') VALUES ('', 'router', '2');
+
+UPDATE perangkat SET jumlah = '9' WHERE id = 3;
+
+
+SELECT * FROM `perangkat` WHERE nama LIKE '%op%';
